@@ -1,0 +1,8 @@
+set autoindent
+set smartindent
+set tabstop=4
+set softtabstop=4
+set number
+set wildmode=longest,list
+set ruler
+au BufRead,BufNewFile /etc/nginx/* set ft=nginx
