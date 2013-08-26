@@ -1,3 +1,5 @@
+directory "/etc/vim"
+
 cookbook_file "/etc/vim/vimrc.local" do
   source "vimrc.local"
   owner "root"
