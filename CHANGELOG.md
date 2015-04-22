@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Install nload and tree
+
 ## 1.0.2
 
 * Move hping3, htop, ntop, iftop from common pkgs to ubuntu-only
