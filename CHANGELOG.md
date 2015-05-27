@@ -1,3 +1,8 @@
+## 1.1.0
+
+* Add test kitchen
+* Add jq package to ubuntu
+
 ## 1.0.3
 
 * Install nload and tree
