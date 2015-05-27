@@ -12,6 +12,7 @@ when "debian","ubuntu"
                                     htop
                                     hping3
                                     iftop
+                                    jq
                                     links
                                     locate
                                     mailutils
