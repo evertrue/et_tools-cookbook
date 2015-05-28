@@ -1,3 +1,7 @@
+## 1.1.1
+
+* Only try to install jq on 14.04 systems
+
 ## 1.1.0
 
 * Add test kitchen
