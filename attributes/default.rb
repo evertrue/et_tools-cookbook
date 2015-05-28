@@ -4,8 +4,8 @@ common_packages = %w(iotop
                      strace
                      tree)
 
-case node['platform']
-when "debian","ubuntu"
+case node['platform_family']
+when "debian"
   default['tools']['packages'] = common_packages +
                                  %w(dnsutils
                                     git-core
@@ -20,7 +20,7 @@ when "debian","ubuntu"
                                     ntop
                                     sysstat
                                     zip)
-when "redhat","centos","scientific","amazon"
+when "redhat"
   default['tools']['packages'] = common_packages +
                                  %w(bc
                                     bind-utils
