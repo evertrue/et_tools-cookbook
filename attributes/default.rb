@@ -9,6 +9,8 @@ when "debian"
   pkgs = common_packages +
          %w(dnsutils
             git-core
+            fortune-mod
+            fortunes-off
             htop
             hping3
             iftop
