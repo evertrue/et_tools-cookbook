@@ -1,3 +1,7 @@
+## 1.1.2
+
+* Add some important tools to the chain
+
 ## 1.1.1
 
 * Only try to install jq on 14.04 systems
